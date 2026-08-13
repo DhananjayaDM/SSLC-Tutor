@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+google-genai
+pypdf
+faiss-cpu
+numpy
+huggingface_hub
+sentence-transformers
+pymupdf
+pillow
+rapidocr-onnxruntime
+paddleocr
