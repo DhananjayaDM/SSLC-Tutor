@@ -6,21 +6,23 @@ from services.embeddings import (
     embed_texts
 )
 
-index = faiss.read_index(
-    "vectordb/index.faiss"
-)
-
-with open(
-    "vectordb/chunks.pkl",
-    "rb"
-) as f:
-    chunks = pickle.load(f)
-
 
 def retrieve(
+    chapter: str,
     query: str,
-    k: int = 3
+    k: int = 5
 ):
+
+    index = faiss.read_index(
+        f"vectordb/{chapter}/index.faiss"
+    )
+
+    with open(
+        f"vectordb/{chapter}/chunks.pkl",
+        "rb"
+    ) as f:
+
+        chunks = pickle.load(f)
 
     query_embedding = embed_texts(
         [query]

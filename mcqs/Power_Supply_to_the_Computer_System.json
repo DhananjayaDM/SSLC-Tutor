@@ -1,0 +1,150 @@
+{
+    "topic": "Power Supply to the Computer System",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a function of the Power Supply Unit (PSU)?",
+            "options": [
+                "Converts AC power into DC power.",
+                "Supplies power to the motherboard.",
+                "Regulates voltage to ensure stable operation.",
+                "Translates binary code into machine code."
+            ],
+            "answer": "Translates binary code into machine code.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which type of power supply is commonly used in modern desktop computers?",
+            "options": [
+                "AT power supply",
+                "ATX power supply",
+                "SMPS power supply",
+                "UPS power supply"
+            ],
+            "answer": "ATX power supply",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary advantage of using a Switched Mode Power Supply (SMPS)?",
+            "options": [
+                "High efficiency",
+                "Compact size",
+                "Low heat generation",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a component powered by the Power Supply Unit (PSU)?",
+            "options": [
+                "Motherboard",
+                "Processor (CPU)",
+                "Hard Disk Drive (HDD)",
+                "Monitor"
+            ],
+            "answer": "Monitor",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the unit used to measure the capacity of a Power Supply Unit (PSU)?",
+            "options": [
+                "Watt",
+                "Volt",
+                "Ampere",
+                "Ohm"
+            ],
+            "answer": "Watt",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a feature of ATX power supply?",
+            "options": [
+                "Better power management",
+                "Automatic shutdown support",
+                "Improved efficiency",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the purpose of a Uninterruptible Power Supply (UPS)?",
+            "options": [
+                "Prevents sudden shutdowns",
+                "Protects data from loss",
+                "Protects hardware from power interruptions",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of power supply that efficiently converts AC power into DC power?",
+            "options": [
+                "AT power supply",
+                "ATX power supply",
+                "SMPS power supply",
+                "UPS power supply"
+            ],
+            "answer": "SMPS power supply",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary function of the Power Supply Unit (PSU) in a computer system?",
+            "options": [
+                "Converts AC power into DC power",
+                "Supplies power to the motherboard",
+                "Regulates voltage to ensure stable operation",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of a high-performance graphics card?",
+            "options": [
+                "Requires separate power connections from the PSU",
+                "Does not require separate power connections from the PSU",
+                "Requires a separate power supply",
+                "Does not require a separate power supply"
+            ],
+            "answer": "Requires separate power connections from the PSU",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary advantage of using a Power Supply Unit (PSU) with a high wattage rating?",
+            "options": [
+                "Better power management",
+                "Automatic shutdown support",
+                "Improved efficiency",
+                "Ability to power high-performance components"
+            ],
+            "answer": "Ability to power high-performance components",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of power supply that is used in older computer systems?",
+            "options": [
+                "AT power supply",
+                "ATX power supply",
+                "SMPS power supply",
+                "UPS power supply"
+            ],
+            "answer": "AT power supply",
+            "difficulty": "easy",
+            "type": "classification"
+        }
+    ]
+}

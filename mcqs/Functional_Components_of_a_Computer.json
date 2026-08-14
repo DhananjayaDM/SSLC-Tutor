@@ -1,0 +1,126 @@
+{
+    "topic": "Functional Components of a Computer",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a component of the Central Processing Unit (CPU)?",
+            "options": [
+                "Arithmetic Logic Unit (ALU)",
+                "Control Unit (CU)",
+                "Registers",
+                "Memory Unit"
+            ],
+            "answer": "Memory Unit",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is the fastest memory in a computer system?",
+            "options": [
+                "Registers",
+                "Cache Memory",
+                "RAM",
+                "ROM"
+            ],
+            "answer": "Registers",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is an example of secondary memory?",
+            "options": [
+                "Registers",
+                "Cache Memory",
+                "RAM",
+                "Hard Disk Drive (HDD)"
+            ],
+            "answer": "Hard Disk Drive (HDD)",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is responsible for controlling and coordinating the activities of all components of the computer?",
+            "options": [
+                "Arithmetic Logic Unit (ALU)",
+                "Control Unit (CU)",
+                "Registers",
+                "Memory Unit"
+            ],
+            "answer": "Control Unit (CU)",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of primary memory?",
+            "options": [
+                "Registers",
+                "Cache Memory",
+                "RAM",
+                "Hard Disk Drive (HDD)"
+            ],
+            "answer": "Hard Disk Drive (HDD)",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is an example of output device?",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Monitor",
+                "Speaker"
+            ],
+            "answer": "Speaker",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is responsible for accepting data and instructions from the user and converting them into a form that the computer can understand?",
+            "options": [
+                "Input Unit",
+                "Central Processing Unit (CPU)",
+                "Memory Unit",
+                "Output Unit"
+            ],
+            "answer": "Input Unit",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is the correct order of primary memory speed?",
+            "options": [
+                "Registers → Cache Memory → RAM → ROM",
+                "Registers → ROM → Cache Memory → RAM",
+                "Registers → RAM → Cache Memory → ROM",
+                "Registers → Cache Memory → ROM → RAM"
+            ],
+            "answer": "Registers → Cache Memory → RAM → ROM",
+            "difficulty": "hard",
+            "type": "memory hierarchy"
+        },
+        {
+            "question": "Which of the following is NOT a component of the Input Unit?",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Scanner",
+                "Memory Unit"
+            ],
+            "answer": "Memory Unit",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is responsible for presenting the processed information to the user in a human-readable form?",
+            "options": [
+                "Input Unit",
+                "Central Processing Unit (CPU)",
+                "Memory Unit",
+                "Output Unit"
+            ],
+            "answer": "Output Unit",
+            "difficulty": "medium",
+            "type": "conceptual"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "topic": "Spreadsheets",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a feature of a spreadsheet?",
+            "options": [
+                "Sorting",
+                "Filtering",
+                "AutoFill",
+                "Data Encryption"
+            ],
+            "answer": "Data Encryption",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "A spreadsheet application is used to perform which of the following tasks?",
+            "options": [
+                "Create tables",
+                "Generate charts",
+                "Analyze large amounts of data",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a type of chart commonly used to show proportions or percentages?",
+            "options": [
+                "Column Chart",
+                "Bar Chart",
+                "Pie Chart",
+                "Line Chart"
+            ],
+            "answer": "Pie Chart",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "A cell address in a spreadsheet is denoted by which of the following formats?",
+            "options": [
+                "A1",
+                "B5",
+                "C10",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following functions in a spreadsheet is used to calculate the average value?",
+            "options": [
+                "SUM()",
+                "AVERAGE()",
+                "MAX()",
+                "MIN()"
+            ],
+            "answer": "AVERAGE()",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "A range of cells in a spreadsheet is denoted by which of the following formats?",
+            "options": [
+                "A1:A10",
+                "B5:C10",
+                "D10:E15",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of reference in a spreadsheet that does not change when copied?",
+            "options": [
+                "Relative Reference",
+                "Absolute Reference",
+                "Mixed Reference",
+                "None of the above"
+            ],
+            "answer": "Absolute Reference",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "A workbook in a spreadsheet is a file containing which of the following?",
+            "options": [
+                "One or more worksheets",
+                "One or more charts",
+                "One or more formulas",
+                "All of the above"
+            ],
+            "answer": "One or more worksheets",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a feature of a spreadsheet that allows you to quickly insert the SUM function?",
+            "options": [
+                "AutoFill",
+                "AutoSum",
+                "AutoFormat",
+                "None of the above"
+            ],
+            "answer": "AutoSum",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "A formula in a spreadsheet begins with which of the following characters?",
+            "options": [
+                "=",
+                "+",
+                "-",
+                "*"
+            ],
+            "answer": "=",
+            "difficulty": "easy",
+            "type": "conceptual"
+        }
+    ]
+}

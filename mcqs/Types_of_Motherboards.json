@@ -1,0 +1,126 @@
+{
+    "topic": "Types of Motherboards",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following motherboard types is NOT a smaller version of ATX?",
+            "options": [
+                "Micro-ATX",
+                "Mini-ITX",
+                "BTX",
+                "AT"
+            ],
+            "answer": "BTX",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding the characteristics of AT motherboards?",
+            "options": [
+                "AT motherboards are easy to upgrade and maintain.",
+                "AT motherboards are large-sized and older technology.",
+                "AT motherboards support modern processors and expansion cards.",
+                "AT motherboards are compact and low power consumption."
+            ],
+            "answer": "AT motherboards are large-sized and older technology.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following motherboard types is commonly used in embedded systems and mini computers?",
+            "options": [
+                "Micro-ATX",
+                "Mini-ITX",
+                "BTX",
+                "AT"
+            ],
+            "answer": "Mini-ITX",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct regarding the characteristics of ATX motherboards?",
+            "options": [
+                "ATX motherboards support modern processors and expansion cards.",
+                "ATX motherboards are easy to upgrade and maintain.",
+                "ATX motherboards are large-sized and older technology.",
+                "ATX motherboards are compact and low power consumption."
+            ],
+            "answer": "ATX motherboards are large-sized and older technology.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following motherboard types is used in servers and data centers?",
+            "options": [
+                "Desktop Motherboard",
+                "Laptop Motherboard",
+                "Server Motherboard",
+                "Embedded Motherboard"
+            ],
+            "answer": "Server Motherboard",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding the characteristics of BTX motherboards?",
+            "options": [
+                "BTX motherboards are compact and low power consumption.",
+                "BTX motherboards are large-sized and older technology.",
+                "BTX motherboards support modern processors and expansion cards.",
+                "BTX motherboards are designed to improve cooling and system performance."
+            ],
+            "answer": "BTX motherboards are designed to improve cooling and system performance.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following motherboard types is suitable for home and office computers?",
+            "options": [
+                "Micro-ATX",
+                "Mini-ITX",
+                "BTX",
+                "AT"
+            ],
+            "answer": "Micro-ATX",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct regarding the characteristics of Mini-ITX motherboards?",
+            "options": [
+                "Mini-ITX motherboards are compact and low power consumption.",
+                "Mini-ITX motherboards are large-sized and older technology.",
+                "Mini-ITX motherboards support modern processors and expansion cards.",
+                "Mini-ITX motherboards are suitable for small computers."
+            ],
+            "answer": "Mini-ITX motherboards are large-sized and older technology.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following motherboard types is used in laptops and notebooks?",
+            "options": [
+                "Desktop Motherboard",
+                "Laptop Motherboard",
+                "Server Motherboard",
+                "Embedded Motherboard"
+            ],
+            "answer": "Laptop Motherboard",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding the characteristics of Embedded Motherboards?",
+            "options": [
+                "Embedded Motherboards are used in servers and data centers.",
+                "Embedded Motherboards are used in laptops and notebooks.",
+                "Embedded Motherboards are used in dedicated systems such as ATMs and medical equipment.",
+                "Embedded Motherboards are used in desktop computers."
+            ],
+            "answer": "Embedded Motherboards are used in dedicated systems such as ATMs and medical equipment.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "topic": "Word Processing",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following features automatically corrects common typing and spelling mistakes?",
+            "options": [
+                "Spell Check",
+                "Grammar Check",
+                "AutoCorrect",
+                "AutoText"
+            ],
+            "answer": "AutoCorrect",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a formatting feature in Word Processing?",
+            "options": [
+                "Font",
+                "Font Size",
+                "Bold",
+                "Find"
+            ],
+            "answer": "Find",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is used to create multiple personalized documents using a main document and a data source?",
+            "options": [
+                "Mail Merge",
+                "Find and Replace",
+                "AutoText",
+                "Thesaurus"
+            ],
+            "answer": "Mail Merge",
+            "difficulty": "hard",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following shortcut keys is used to insert a hyperlink?",
+            "options": [
+                "Ctrl + K",
+                "Ctrl + B",
+                "Ctrl + I",
+                "Ctrl + U"
+            ],
+            "answer": "Ctrl + K",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to align text evenly on both left and right margins?",
+            "options": [
+                "Left Align",
+                "Center Align",
+                "Right Align",
+                "Justify"
+            ],
+            "answer": "Justify",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following file extensions is used for a plain text file?",
+            "options": [
+                ".docx",
+                ".doc",
+                ".rtf",
+                ".txt"
+            ],
+            "answer": ".txt",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to search for a specific word or phrase in a document?",
+            "options": [
+                "Find",
+                "Replace",
+                "Find and Replace",
+                "Thesaurus"
+            ],
+            "answer": "Find",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to automatically number document pages?",
+            "options": [
+                "Page Number",
+                "Header",
+                "Footer",
+                "Template"
+            ],
+            "answer": "Page Number",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to create a pre-designed document format?",
+            "options": [
+                "Template",
+                "Mail Merge",
+                "AutoText",
+                "Thesaurus"
+            ],
+            "answer": "Template",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to adjust the distance of text from margins?",
+            "options": [
+                "Indentation",
+                "Line Spacing",
+                "Font Size",
+                "Alignment"
+            ],
+            "answer": "Indentation",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to detect grammatical errors in a document?",
+            "options": [
+                "Spell Check",
+                "Grammar Check",
+                "AutoCorrect",
+                "AutoText"
+            ],
+            "answer": "Grammar Check",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is used to create a clickable link to a webpage, file, or location in a document?",
+            "options": [
+                "Hyperlink",
+                "Mail Merge",
+                "AutoText",
+                "Thesaurus"
+            ],
+            "answer": "Hyperlink",
+            "difficulty": "medium",
+            "type": "conceptual"
+        }
+    ]
+}

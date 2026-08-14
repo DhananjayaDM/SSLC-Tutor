@@ -1,0 +1,126 @@
+{
+    "topic": "Introduction",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a characteristic of modern computers?",
+            "options": [
+                "High processing speed",
+                "Ability to perform complex calculations",
+                "Limited storage capacity",
+                "Ability to communicate with humans"
+            ],
+            "answer": "Limited storage capacity",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct statement about the evolution of computers?",
+            "options": [
+                "Computers evolved from simple calculators to complex machines",
+                "Computers evolved from complex machines to simple calculators",
+                "Computers evolved from mechanical devices to electronic devices",
+                "Computers evolved from electronic devices to mechanical devices"
+            ],
+            "answer": "Computers evolved from simple calculators to complex machines",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct classification of computers?",
+            "options": [
+                "Personal computers, mainframe computers, and supercomputers",
+                "Personal computers, mobile devices, and gaming consoles",
+                "Mainframe computers, supercomputers, and embedded systems",
+                "Personal computers, mainframe computers, and embedded systems"
+            ],
+            "answer": "Personal computers, mainframe computers, and supercomputers",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct comparison between modern computers and ancient calculators?",
+            "options": [
+                "Modern computers are faster and more powerful than ancient calculators",
+                "Modern computers are slower and less powerful than ancient calculators",
+                "Modern computers are more complex and have more features than ancient calculators",
+                "Modern computers are simpler and have fewer features than ancient calculators"
+            ],
+            "answer": "Modern computers are faster and more powerful than ancient calculators",
+            "difficulty": "hard",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in modern life?",
+            "options": [
+                "Computers are used for entertainment purposes only",
+                "Computers are used for communication purposes only",
+                "Computers are used for both entertainment and communication purposes",
+                "Computers are used for educational purposes only"
+            ],
+            "answer": "Computers are used for both entertainment and communication purposes",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct statement about the impact of computers on society?",
+            "options": [
+                "Computers have increased productivity and efficiency in various industries",
+                "Computers have decreased productivity and efficiency in various industries",
+                "Computers have had no impact on productivity and efficiency in various industries",
+                "Computers have increased unemployment rates in various industries"
+            ],
+            "answer": "Computers have increased productivity and efficiency in various industries",
+            "difficulty": "hard",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct classification of computer users?",
+            "options": [
+                "Individuals, organizations, and governments",
+                "Individuals, businesses, and educational institutions",
+                "Organizations, governments, and non-profit organizations",
+                "Individuals, organizations, and non-profit organizations"
+            ],
+            "answer": "Individuals, organizations, and governments",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct comparison between computer hardware and software?",
+            "options": [
+                "Hardware is the physical components of a computer, while software is the programs that run on it",
+                "Hardware is the programs that run on a computer, while software is the physical components",
+                "Hardware and software are interchangeable terms",
+                "Hardware and software are the same thing"
+            ],
+            "answer": "Hardware is the physical components of a computer, while software is the programs that run on it",
+            "difficulty": "hard",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in the field of medicine?",
+            "options": [
+                "Computers are used for diagnosis and treatment purposes only",
+                "Computers are used for research and development purposes only",
+                "Computers are used for both diagnosis and treatment purposes",
+                "Computers are used for research and development purposes only"
+            ],
+            "answer": "Computers are used for both diagnosis and treatment purposes",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct statement about the future of computers?",
+            "options": [
+                "Computers will become even more powerful and complex in the future",
+                "Computers will become less powerful and less complex in the future",
+                "Computers will remain the same in terms of power and complexity in the future",
+                "Computers will become obsolete in the future"
+            ],
+            "answer": "Computers will become even more powerful and complex in the future",
+            "difficulty": "hard",
+            "type": "conceptual"
+        }
+    ]
+}

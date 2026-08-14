@@ -1,4 +1,17 @@
-def generate_important_points(
+import os
+
+from dotenv import load_dotenv
+from groq import Groq
+
+
+load_dotenv()
+
+client = Groq(
+    api_key=os.getenv("GROQ_API_KEY")
+)
+
+
+def generate_notes(
     topic: str,
     context: str
 ):
@@ -14,26 +27,80 @@ REFERENCE CONTENT:
 
 TASK
 
-Extract only the MOST IMPORTANT points required
-for competitive exams.
+Create concise, exam-oriented revision notes from
+the given content.
 
-RULES
+ALLOWED
 
-1. Use ONLY the reference content.
-2. Do NOT add outside knowledge.
-3. Do NOT generate MCQs.
-4. Do NOT generate questions.
-5. Do NOT explain in paragraphs.
-6. Do NOT rewrite the textbook.
-7. Extract the most exam-relevant facts.
-8. Keep shortcut keys if present.
-9. Keep file extensions if present.
-10. Keep formulas if present.
-11. Keep memory hierarchies if present.
-12. Keep classifications if present.
-13. Keep definitions only if important.
-14. Maximum 15-20 points.
-15. One point per line.
+1. Reorganize content.
+2. Convert paragraphs into bullet points.
+3. Merge duplicate information.
+4. Improve readability.
+5. Highlight exam-relevant facts.
+6. Simplify wording.
+7. Extract important concepts.
+8. Group related facts.
+
+NOT ALLOWED
+
+1. Add new topics.
+2. Add new subtopics.
+3. Add outside knowledge.
+4. Add facts not present in the content.
+5. Add technologies not mentioned.
+6. Add new examples.
+7. Add new shortcut keys.
+8. Add new file extensions.
+9. Add new classifications.
+10. Add future predictions.
+11. Add historical details not present.
+12. Generate MCQs.
+13. Generate questions.
+14. Generate answers.
+
+VERY IMPORTANT
+
+Preserve whenever present:
+
+- Definitions
+- Characteristics
+- Features
+- Types
+- Classifications
+- Components
+- Examples
+- Applications
+- Steps
+- Memory Hierarchies
+- Comparisons
+- Shortcut Keys
+- File Extensions
+- Formulas
+- Function Names
+- Operating System Examples
+
+PRIORITY ORDER
+
+1. Definitions
+2. Characteristics
+3. Types
+4. Components
+5. Examples
+6. Shortcut Keys
+7. File Extensions
+8. Memory Hierarchies
+9. Comparisons
+10. Exam Facts
+
+OUTPUT RULES
+
+- Maximum 20 important points.
+- One point per line.
+- Avoid long paragraphs.
+- Keep points directly useful for revision.
+- Do not include introductory text like:
+  "Here are the notes..."
+- Start directly with the topic heading.
 
 OUTPUT FORMAT
 
@@ -42,31 +109,38 @@ OUTPUT FORMAT
 - Point 1
 - Point 2
 - Point 3
-- Point 4
 
-Return only bullet points.
+Return ONLY the notes.
 """
 
     try:
 
         response = client.chat.completions.create(
-            model="meta-llama/Llama-3.1-8B-Instruct",
+            model="llama-3.3-70b-versatile",
             messages=[
                 {
                     "role": "system",
-                    "content": (
-                        "You are an exam point extractor. "
-                        "Return only important points."
-                    )
+                    "content": """
+You are an expert Competitive Exam Revision
+Notes Generator.
+
+Your responsibility is to:
+
+- Extract exam-important facts.
+- Preserve syllabus accuracy.
+- Improve readability.
+- Never introduce new syllabus content.
+- Never hallucinate.
+- Never expand the scope of the topic.
+                    """
                 },
                 {
                     "role": "user",
                     "content": prompt
                 }
             ],
-            max_tokens=1000,
             temperature=0,
-            top_p=0.01
+            max_completion_tokens=1200
         )
 
         return (

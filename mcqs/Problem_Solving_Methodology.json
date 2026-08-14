@@ -1,0 +1,126 @@
+{
+    "topic": "Problem Solving Methodology",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a type of maintenance in software maintenance?",
+            "options": [
+                "Corrective Maintenance",
+                "Adaptive Maintenance",
+                "Perfective Maintenance",
+                "Educational Maintenance"
+            ],
+            "answer": "Educational Maintenance",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary objective of Corrective Maintenance?",
+            "options": [
+                "To improve the performance of software",
+                "To restore the software to its proper working condition",
+                "To adapt software to changes in its operating environment",
+                "To enhance the quality and usefulness of software"
+            ],
+            "answer": "To restore the software to its proper working condition",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of a good algorithm?",
+            "options": [
+                "It is complex and difficult to understand",
+                "It is simple and easy to understand",
+                "It is efficient and reliable",
+                "It is slow and unreliable"
+            ],
+            "answer": "It is simple and easy to understand",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "What is the purpose of documentation in software development?",
+            "options": [
+                "To improve the performance of software",
+                "To enhance the quality and usefulness of software",
+                "To assist users in understanding the software",
+                "To adapt software to changes in its operating environment"
+            ],
+            "answer": "To assist users in understanding the software",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a step in the Problem Solving Methodology?",
+            "options": [
+                "Problem Definition",
+                "Problem Analysis",
+                "Solution Design",
+                "Problem Implementation"
+            ],
+            "answer": "Problem Implementation",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the main objective of the Problem Analysis phase?",
+            "options": [
+                "To determine what needs to be done",
+                "To decide how it should be done",
+                "To identify the problem and its requirements",
+                "To design a solution to the problem"
+            ],
+            "answer": "To determine what needs to be done",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of a good program?",
+            "options": [
+                "It is complex and difficult to understand",
+                "It is simple and easy to understand",
+                "It is efficient and reliable",
+                "It is slow and unreliable"
+            ],
+            "answer": "It is simple and easy to understand",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "What is the purpose of testing in software development?",
+            "options": [
+                "To improve the performance of software",
+                "To enhance the quality and usefulness of software",
+                "To detect defects and ensure that the software meets specified requirements",
+                "To adapt software to changes in its operating environment"
+            ],
+            "answer": "To detect defects and ensure that the software meets specified requirements",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of error that occurs during runtime?",
+            "options": [
+                "Syntax Error",
+                "Logical Error",
+                "Runtime Error",
+                "Compilation Error"
+            ],
+            "answer": "Runtime Error",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary objective of Perfective Maintenance?",
+            "options": [
+                "To restore the software to its proper working condition",
+                "To adapt software to changes in its operating environment",
+                "To enhance the quality and usefulness of software",
+                "To improve the performance of software"
+            ],
+            "answer": "To enhance the quality and usefulness of software",
+            "difficulty": "medium",
+            "type": "conceptual"
+        }
+    ]
+}

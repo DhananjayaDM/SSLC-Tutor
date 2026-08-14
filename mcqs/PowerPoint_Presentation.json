@@ -1,0 +1,153 @@
+{
+    "topic": "PowerPoint Presentation",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following views in PowerPoint is used for displaying all slides as thumbnails for easy arrangement?",
+            "options": [
+                "Normal View",
+                "Slide Sorter View",
+                "Reading View",
+                "Slide Show View"
+            ],
+            "answer": "Slide Sorter View",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding PowerPoint templates?",
+            "options": [
+                "Templates are pre-designed presentation formats.",
+                "Templates are used for creating new slides.",
+                "Templates are used for editing existing slides.",
+                "Templates are used for printing handouts."
+            ],
+            "answer": "Templates are pre-designed presentation formats.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of chart in PowerPoint?",
+            "options": [
+                "Column Chart",
+                "Bar Chart",
+                "Line Chart",
+                "Pie Chart",
+                "Flow Chart"
+            ],
+            "answer": "Flow Chart",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which shortcut key is used to start a slide show from the beginning?",
+            "options": [
+                "F5",
+                "Shift + F5",
+                "Ctrl + M",
+                "Ctrl + D"
+            ],
+            "answer": "F5",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a feature of the Slide Show view in PowerPoint?",
+            "options": [
+                "Displaying all slides as thumbnails",
+                "Displaying presentation in full screen",
+                "Displaying speaker notes and presentation controls",
+                "Displaying handouts for the audience"
+            ],
+            "answer": "Displaying presentation in full screen",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct regarding PowerPoint animations?",
+            "options": [
+                "Animations are applied to objects.",
+                "Animations are applied between slides.",
+                "Animations are used to add visual effects to text or objects.",
+                "Animations are used to control the timing of a presentation."
+            ],
+            "answer": "Animations are applied between slides.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of transition in PowerPoint?",
+            "options": [
+                "Fade",
+                "Push",
+                "Wipe",
+                "Split",
+                "Fly In"
+            ],
+            "answer": "Fly In",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which shortcut key is used to duplicate a slide?",
+            "options": [
+                "Ctrl + M",
+                "Ctrl + D",
+                "Ctrl + C",
+                "Ctrl + V"
+            ],
+            "answer": "Ctrl + D",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a feature of the Slide Sorter view in PowerPoint?",
+            "options": [
+                "Displaying all slides as thumbnails",
+                "Displaying presentation in full screen",
+                "Displaying speaker notes and presentation controls",
+                "Displaying handouts for the audience"
+            ],
+            "answer": "Displaying all slides as thumbnails",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding PowerPoint themes?",
+            "options": [
+                "Themes control colors, fonts, and effects.",
+                "Themes are used for creating new slides.",
+                "Themes are used for editing existing slides.",
+                "Themes are used for printing handouts."
+            ],
+            "answer": "Themes control colors, fonts, and effects.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of diagram in PowerPoint?",
+            "options": [
+                "Column Chart",
+                "Bar Chart",
+                "Line Chart",
+                "Pie Chart",
+                "SmartArt"
+            ],
+            "answer": "SmartArt",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which shortcut key is used to end a slide show?",
+            "options": [
+                "F5",
+                "Shift + F5",
+                "Ctrl + M",
+                "Esc"
+            ],
+            "answer": "Esc",
+            "difficulty": "easy",
+            "type": "application"
+        }
+    ]
+}

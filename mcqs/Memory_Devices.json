@@ -1,0 +1,126 @@
+{
+    "topic": "Memory Devices",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following types of CDs can be erased and rewritten multiple times?",
+            "options": [
+                "CD-ROM",
+                "CD-R",
+                "CD-RW",
+                "DVD-ROM"
+            ],
+            "answer": "CD-RW",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following storage devices uses flash memory instead of magnetic disks?",
+            "options": [
+                "Hard Disk",
+                "SSD",
+                "USB Drive",
+                "DVD-RW"
+            ],
+            "answer": "SSD",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following types of DVDs can store up to 9.4 GB of data?",
+            "options": [
+                "DVD-ROM",
+                "DVD-R",
+                "DVD-RW",
+                "Double-layer DVD"
+            ],
+            "answer": "Double-layer DVD",
+            "difficulty": "medium",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following storage devices is typically used for storing operating systems, software, and large data files?",
+            "options": [
+                "Internal Hard Disk",
+                "Internal Cartridges",
+                "Hard Disk Packs",
+                "USB Drive"
+            ],
+            "answer": "Internal Hard Disk",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following types of CDs can be written only once and then read multiple times?",
+            "options": [
+                "CD-ROM",
+                "CD-R",
+                "CD-RW",
+                "DVD-ROM"
+            ],
+            "answer": "CD-R",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following storage devices is used to store and transfer data between computers using a USB interface?",
+            "options": [
+                "Hard Disk",
+                "SSD",
+                "USB Drive",
+                "DVD-RW"
+            ],
+            "answer": "USB Drive",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following types of DVDs can store up to 17 GB of data?",
+            "options": [
+                "DVD-ROM",
+                "DVD-R",
+                "DVD-RW",
+                "Double-sided DVD"
+            ],
+            "answer": "Double-sided DVD",
+            "difficulty": "hard",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following storage devices is typically used for storing large volumes of data in organizations?",
+            "options": [
+                "Internal Hard Disk",
+                "Internal Cartridges",
+                "Hard Disk Packs",
+                "USB Drive"
+            ],
+            "answer": "Hard Disk Packs",
+            "difficulty": "hard",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following types of CDs can be written by the publisher and used for distributing music, software, and other commercial content?",
+            "options": [
+                "CD-ROM",
+                "CD-R",
+                "CD-RW",
+                "DVD-ROM"
+            ],
+            "answer": "CD-ROM",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following storage devices uses a magnetic surface to store digital information?",
+            "options": [
+                "Hard Disk",
+                "SSD",
+                "USB Drive",
+                "DVD-RW"
+            ],
+            "answer": "Hard Disk",
+            "difficulty": "medium",
+            "type": "conceptual"
+        }
+    ]
+}

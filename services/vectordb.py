@@ -29,11 +29,11 @@ def create_db(chunks):
 
     faiss.write_index(
         index,
-        "vectordb/index.faiss"
+        "vectordb/02_Discrete_Structures_and_Optimization/index.faiss"
     )
 
     with open(
-        "vectordb/chunks.pkl",
+        "vectordb/02_Discrete_Structures_and_Optimization/chunks.pkl",
         "wb"
     ) as f:
         pickle.dump(

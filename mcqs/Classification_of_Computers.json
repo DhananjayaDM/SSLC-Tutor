@@ -1,0 +1,126 @@
+{
+    "topic": "Classification of Computers",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following statements is NOT correct regarding analog computers?",
+            "options": [
+                "Analog computers process continuous data.",
+                "Analog computers work with physical quantities such as temperature, pressure, speed, and voltage.",
+                "Analog computers are used in digital applications.",
+                "Analog computers are used in weather forecasting systems."
+            ],
+            "answer": "c",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is an example of a hybrid computer?",
+            "options": [
+                "Desktop Computer",
+                "Laptop",
+                "ECG Machine",
+                "Traffic Control System"
+            ],
+            "answer": "c",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following statements is correct regarding digital computers?",
+            "options": [
+                "Digital computers process continuous data.",
+                "Digital computers work with physical quantities such as temperature, pressure, speed, and voltage.",
+                "Digital computers process discrete data represented in binary form (0 and 1).",
+                "Digital computers are used in analog applications."
+            ],
+            "answer": "c",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT an example of a special purpose computer?",
+            "options": [
+                "ATM Machine",
+                "Traffic Control System",
+                "Embedded System",
+                "Desktop Computer"
+            ],
+            "answer": "d",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following statements is correct regarding microcomputers?",
+            "options": [
+                "Microcomputers are large and powerful systems.",
+                "Microcomputers are medium-sized computers capable of supporting multiple users simultaneously.",
+                "Microcomputers are small computers designed for individual users.",
+                "Microcomputers are used in mainframe applications."
+            ],
+            "answer": "c",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is an example of a mainframe computer?",
+            "options": [
+                "Desktop Computer",
+                "Laptop",
+                "Mainframe Computer",
+                "Supercomputer"
+            ],
+            "answer": "c",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following statements is NOT correct regarding hybrid computers?",
+            "options": [
+                "Hybrid computers combine the features of both analog and digital computers.",
+                "Hybrid computers are used in digital applications.",
+                "Hybrid computers are used in weather forecasting systems.",
+                "Hybrid computers are used in medical applications."
+            ],
+            "answer": "b",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is an example of a supercomputer?",
+            "options": [
+                "Desktop Computer",
+                "Laptop",
+                "Supercomputer",
+                "Mainframe Computer"
+            ],
+            "answer": "c",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following statements is correct regarding minicomputers?",
+            "options": [
+                "Minicomputers are small computers designed for individual users.",
+                "Minicomputers are medium-sized computers capable of supporting multiple users simultaneously.",
+                "Minicomputers are large and powerful systems.",
+                "Minicomputers are used in mainframe applications."
+            ],
+            "answer": "b",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT an example of a general purpose computer?",
+            "options": [
+                "Desktop Computer",
+                "Laptop",
+                "Tablet",
+                "ATM Machine"
+            ],
+            "answer": "d",
+            "difficulty": "medium",
+            "type": "classification"
+        }
+    ]
+}

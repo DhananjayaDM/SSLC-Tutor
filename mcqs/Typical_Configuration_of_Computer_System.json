@@ -1,0 +1,150 @@
+{
+    "topic": "Typical Configuration of Computer System",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a type of primary memory?",
+            "options": [
+                "Registers",
+                "Cache Memory",
+                "RAM (Random Access Memory)",
+                "External Hard Drive"
+            ],
+            "answer": "External Hard Drive",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding the CPU?",
+            "options": [
+                "The CPU is the only component that performs data processing.",
+                "The CPU consists of only the Control Unit.",
+                "The CPU performs both arithmetic and logical operations.",
+                "The CPU does not control all computer operations."
+            ],
+            "answer": "The CPU performs both arithmetic and logical operations.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct order of memory hierarchy?",
+            "options": [
+                "Registers → Cache Memory → RAM → ROM",
+                "Registers → ROM → RAM → Cache Memory",
+                "Registers → RAM → Cache Memory → ROM",
+                "Registers → Cache Memory → ROM → RAM"
+            ],
+            "answer": "Registers → Cache Memory → RAM → ROM",
+            "difficulty": "hard",
+            "type": "memory hierarchy"
+        },
+        {
+            "question": "Which of the following is NOT a common output device?",
+            "options": [
+                "Monitor",
+                "Printer",
+                "Speaker",
+                "Barcode Reader"
+            ],
+            "answer": "Barcode Reader",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct regarding the Power Supply Unit (PSU)?",
+            "options": [
+                "The PSU converts AC power into DC power.",
+                "The PSU supplies electricity to all components of the computer.",
+                "The PSU is connected to the motherboard.",
+                "The PSU is not a necessary component of a computer."
+            ],
+            "answer": "The PSU is not a necessary component of a computer.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct pair of matching components?",
+            "options": [
+                "CPU → Control Unit",
+                "CPU → Arithmetic Logic Unit",
+                "CPU → Registers",
+                "CPU → Motherboard"
+            ],
+            "answer": "CPU → Arithmetic Logic Unit",
+            "difficulty": "medium",
+            "type": "pair matching"
+        },
+        {
+            "question": "Which of the following is a correct statement regarding the Memory Unit?",
+            "options": [
+                "The Memory Unit stores data, instructions, and results.",
+                "The Memory Unit is directly accessed by the CPU.",
+                "The Memory Unit is slower than the CPU.",
+                "The Memory Unit is not a necessary component of a computer."
+            ],
+            "answer": "The Memory Unit stores data, instructions, and results.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of storage device?",
+            "options": [
+                "HDD (Hard Disk Drive)",
+                "SSD (Solid State Drive)",
+                "USB Flash Drive",
+                "Monitor"
+            ],
+            "answer": "Monitor",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct regarding the Motherboard?",
+            "options": [
+                "The Motherboard is the main circuit board of a computer.",
+                "The Motherboard connects all components of a computer.",
+                "The Motherboard is not a necessary component of a computer.",
+                "The Motherboard is connected to the Power Supply Unit."
+            ],
+            "answer": "The Motherboard is the main circuit board of a computer.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a correct order of data flow in a computer system?",
+            "options": [
+                "Input Unit → CPU → Memory Unit → Output Unit",
+                "Input Unit → Memory Unit → CPU → Output Unit",
+                "Input Unit → Output Unit → CPU → Memory Unit",
+                "Input Unit → CPU → Output Unit → Memory Unit"
+            ],
+            "answer": "Input Unit → CPU → Memory Unit → Output Unit",
+            "difficulty": "hard",
+            "type": "data flow"
+        },
+        {
+            "question": "Which of the following is NOT a common input device?",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Scanner",
+                "Printer"
+            ],
+            "answer": "Printer",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct regarding the Registers?",
+            "options": [
+                "Registers are high-speed storage locations inside the CPU.",
+                "Registers are directly accessed by the CPU.",
+                "Registers are faster than RAM.",
+                "Registers are not a necessary component of a computer."
+            ],
+            "answer": "Registers are not a necessary component of a computer.",
+            "difficulty": "medium",
+            "type": "conceptual"
+        }
+    ]
+}

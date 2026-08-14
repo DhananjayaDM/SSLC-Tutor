@@ -1,0 +1,150 @@
+{
+    "topic": "Memory",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following types of memory is used for permanent storage of data and programs?",
+            "options": [
+                "Primary Memory",
+                "Secondary Memory",
+                "Cache Memory",
+                "Registers"
+            ],
+            "answer": "Secondary Memory",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct about RAM?",
+            "options": [
+                "RAM is a volatile memory",
+                "RAM is used for temporary storage",
+                "RAM is read and write memory",
+                "RAM is non-volatile memory"
+            ],
+            "answer": "RAM is non-volatile memory",
+            "difficulty": "medium",
+            "type": "elimination"
+        },
+        {
+            "question": "Which of the following is a characteristic of Cache Memory?",
+            "options": [
+                "Faster than RAM",
+                "Slower than Registers",
+                "Directly accessed by the CPU",
+                "Less expensive than ROM"
+            ],
+            "answer": "Faster than RAM",
+            "difficulty": "easy",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following types of ROM can be erased electrically and reprogrammed?",
+            "options": [
+                "PROM",
+                "EPROM",
+                "EEPROM",
+                "ROM"
+            ],
+            "answer": "EEPROM",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct about Virtual Memory?",
+            "options": [
+                "Virtual Memory is a memory management technique that increases the effective memory capacity of a system",
+                "Virtual Memory is a type of RAM",
+                "Virtual Memory is a type of ROM",
+                "Virtual Memory is a type of Cache Memory"
+            ],
+            "answer": "Virtual Memory is a memory management technique that increases the effective memory capacity of a system",
+            "difficulty": "hard",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of Registers?",
+            "options": [
+                "Faster than Cache Memory",
+                "Slower than RAM",
+                "Directly accessed by the CPU",
+                "Less expensive than ROM"
+            ],
+            "answer": "Faster than Cache Memory",
+            "difficulty": "easy",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following types of memory is used for temporary storage?",
+            "options": [
+                "Primary Memory",
+                "Secondary Memory",
+                "Cache Memory",
+                "Registers"
+            ],
+            "answer": "Primary Memory",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct about ROM?",
+            "options": [
+                "ROM is a non-volatile memory",
+                "ROM is used for permanent storage",
+                "ROM is read-only memory",
+                "ROM is volatile memory"
+            ],
+            "answer": "ROM is volatile memory",
+            "difficulty": "medium",
+            "type": "elimination"
+        },
+        {
+            "question": "Which of the following is a characteristic of DRAM?",
+            "options": [
+                "Faster than SRAM",
+                "Slower than SRAM",
+                "Directly accessed by the CPU",
+                "Less expensive than ROM"
+            ],
+            "answer": "Slower than SRAM",
+            "difficulty": "easy",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following types of memory is used for permanent storage of firmware and boot programs?",
+            "options": [
+                "Primary Memory",
+                "Secondary Memory",
+                "Cache Memory",
+                "ROM"
+            ],
+            "answer": "ROM",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct about Cache Levels?",
+            "options": [
+                "L1 Cache is the slowest cache level",
+                "L2 Cache is the fastest cache level",
+                "L3 Cache is the smallest cache level",
+                "L1 Cache is the fastest cache level and smallest"
+            ],
+            "answer": "L1 Cache is the fastest cache level and smallest",
+            "difficulty": "hard",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of SRAM?",
+            "options": [
+                "Faster than DRAM",
+                "Slower than DRAM",
+                "Directly accessed by the CPU",
+                "Less expensive than ROM"
+            ],
+            "answer": "Faster than DRAM",
+            "difficulty": "easy",
+            "type": "comparison"
+        }
+    ]
+}

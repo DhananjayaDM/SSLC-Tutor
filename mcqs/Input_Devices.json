@@ -1,0 +1,126 @@
+{
+    "topic": "Input Devices",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following input devices is used mainly for games and simulation applications?",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Joystick",
+                "Scanner"
+            ],
+            "answer": "Joystick",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which input device acts as both input and output device?",
+            "options": [
+                "Touch Screen",
+                "Keyboard",
+                "Mouse",
+                "Scanner"
+            ],
+            "answer": "Touch Screen",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following input devices is used in banking to read cheque numbers?",
+            "options": [
+                "MICR",
+                "Optical Character Reader (OCR)",
+                "Bar Code Reader",
+                "Light Pen"
+            ],
+            "answer": "MICR",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following input devices is used to capture voice input for speech recognition and voice commands on the computer?",
+            "options": [
+                "Microphone",
+                "Scanner",
+                "Mouse",
+                "Keyboard"
+            ],
+            "answer": "Microphone",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following input devices is used to scan documents, images, and other media, converting them into digital formats for editing or processing?",
+            "options": [
+                "Scanner",
+                "Optical Character Reader (OCR)",
+                "Bar Code Reader",
+                "Light Pen"
+            ],
+            "answer": "Scanner",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following input devices is used to read bar codes and convert them into digital data for processing?",
+            "options": [
+                "Bar Code Reader",
+                "Optical Character Reader (OCR)",
+                "Scanner",
+                "Light Pen"
+            ],
+            "answer": "Bar Code Reader",
+            "difficulty": "medium",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following input devices is used to detect raster patterns and offer a direct interaction with the display?",
+            "options": [
+                "Light Pen",
+                "Optical Character Reader (OCR)",
+                "Bar Code Reader",
+                "Scanner"
+            ],
+            "answer": "Light Pen",
+            "difficulty": "hard",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following input devices is used to track movement and control the cursor?",
+            "options": [
+                "Mouse",
+                "Trackball",
+                "Joystick",
+                "Scanner"
+            ],
+            "answer": "Mouse",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following input devices is used to rotate a ball to control the cursor, requiring less space than a traditional mouse?",
+            "options": [
+                "Trackball",
+                "Mouse",
+                "Joystick",
+                "Scanner"
+            ],
+            "answer": "Trackball",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following input devices is used to scan printed or handwritten text, converting it into digital data by detecting reflected light from the characters?",
+            "options": [
+                "Optical Character Reader (OCR)",
+                "Bar Code Reader",
+                "Scanner",
+                "Light Pen"
+            ],
+            "answer": "Optical Character Reader (OCR)",
+            "difficulty": "medium",
+            "type": "application"
+        }
+    ]
+}

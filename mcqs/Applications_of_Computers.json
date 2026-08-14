@@ -1,0 +1,150 @@
+{
+    "topic": "Applications of Computers",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following applications of computers is NOT related to education?",
+            "options": [
+                "Online classes",
+                "Business communication",
+                "Patient record management",
+                "Scientific simulations"
+            ],
+            "answer": "Business communication",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in the field of healthcare?",
+            "options": [
+                "Medical diagnosis",
+                "Scientific simulations",
+                "Weather forecasting",
+                "Patient record management"
+            ],
+            "answer": "Patient record management",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct comparison between online banking and traditional banking?",
+            "options": [
+                "Online banking is faster and more secure than traditional banking",
+                "Online banking is slower and less secure than traditional banking",
+                "Online banking is more expensive than traditional banking",
+                "Online banking is less convenient than traditional banking"
+            ],
+            "answer": "Online banking is faster and more secure than traditional banking",
+            "difficulty": "medium",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following applications of computers is NOT related to the field of entertainment?",
+            "options": [
+                "Gaming",
+                "Music and video streaming",
+                "Animation",
+                "Scientific simulations"
+            ],
+            "answer": "Scientific simulations",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in the field of transportation?",
+            "options": [
+                "Railway reservation systems",
+                "Airline reservation systems",
+                "Traffic management",
+                "Customer account management"
+            ],
+            "answer": "Traffic management",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct comparison between e-commerce and traditional commerce?",
+            "options": [
+                "E-commerce is faster and more convenient than traditional commerce",
+                "E-commerce is slower and less convenient than traditional commerce",
+                "E-commerce is more expensive than traditional commerce",
+                "E-commerce is less secure than traditional commerce"
+            ],
+            "answer": "E-commerce is faster and more convenient than traditional commerce",
+            "difficulty": "medium",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following applications of computers is NOT related to the field of government?",
+            "options": [
+                "Census data processing",
+                "Tax administration",
+                "E-governance",
+                "Scientific simulations"
+            ],
+            "answer": "Scientific simulations",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in the field of industry and manufacturing?",
+            "options": [
+                "Process control",
+                "Automation",
+                "Robotics",
+                "Customer account management"
+            ],
+            "answer": "Process control",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct comparison between online classes and traditional classes?",
+            "options": [
+                "Online classes are faster and more convenient than traditional classes",
+                "Online classes are slower and less convenient than traditional classes",
+                "Online classes are more expensive than traditional classes",
+                "Online classes are less interactive than traditional classes"
+            ],
+            "answer": "Online classes are faster and more convenient than traditional classes",
+            "difficulty": "medium",
+            "type": "comparison"
+        },
+        {
+            "question": "Which of the following applications of computers is NOT related to the field of defense and security?",
+            "options": [
+                "Missile guidance systems",
+                "Surveillance systems",
+                "Military communication",
+                "Scientific simulations"
+            ],
+            "answer": "Scientific simulations",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct application of computers in the field of science and research?",
+            "options": [
+                "Data analysis",
+                "Scientific simulations",
+                "Weather forecasting",
+                "Patient record management"
+            ],
+            "answer": "Scientific simulations",
+            "difficulty": "easy",
+            "type": "application"
+        },
+        {
+            "question": "Which of the following is a correct comparison between e-learning platforms and traditional learning platforms?",
+            "options": [
+                "E-learning platforms are faster and more convenient than traditional learning platforms",
+                "E-learning platforms are slower and less convenient than traditional learning platforms",
+                "E-learning platforms are more expensive than traditional learning platforms",
+                "E-learning platforms are less interactive than traditional learning platforms"
+            ],
+            "answer": "E-learning platforms are faster and more convenient than traditional learning platforms",
+            "difficulty": "medium",
+            "type": "comparison"
+        }
+    ]
+}

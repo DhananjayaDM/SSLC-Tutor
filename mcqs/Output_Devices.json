@@ -1,0 +1,126 @@
+{
+    "topic": "Output Devices",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following output devices is commonly used to generate large drawings and architectural blueprints?",
+            "options": [
+                "Printer",
+                "Plotter",
+                "Monitor",
+                "Speakers"
+            ],
+            "answer": "Plotter",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct about Laser Printers?",
+            "options": [
+                "Uses laser technology",
+                "Faster and quieter than impact printers",
+                "Uses ink to print",
+                "Faster and quieter than non-impact printers"
+            ],
+            "answer": "Uses ink to print",
+            "difficulty": "hard",
+            "type": "examiner trap"
+        },
+        {
+            "question": "Which of the following is a type of non-impact printer?",
+            "options": [
+                "Impact Printer",
+                "Dot Matrix Printer",
+                "Daisy Wheel Printer",
+                "Laser Printer"
+            ],
+            "answer": "Dot Matrix Printer",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following output devices is commonly used to play music or any other sound?",
+            "options": [
+                "Monitor",
+                "Printer",
+                "Plotter",
+                "Speakers"
+            ],
+            "answer": "Speakers",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a type of hard copy output device?",
+            "options": [
+                "Monitor",
+                "Projector",
+                "Printer",
+                "Plotter"
+            ],
+            "answer": "Printer",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is correct about Impact Printers?",
+            "options": [
+                "Faster and quieter than non-impact printers",
+                "Uses laser technology",
+                "Uses ink to print",
+                "Faster and quieter than dot matrix printers"
+            ],
+            "answer": "Uses ink to print",
+            "difficulty": "hard",
+            "type": "examiner trap"
+        },
+        {
+            "question": "Which of the following output devices is commonly used to display information from the computer?",
+            "options": [
+                "Monitor",
+                "Printer",
+                "Plotter",
+                "Speakers"
+            ],
+            "answer": "Monitor",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a type of non-impact printer that uses a laser to print?",
+            "options": [
+                "Impact Printer",
+                "Dot Matrix Printer",
+                "Daisy Wheel Printer",
+                "Laser Printer"
+            ],
+            "answer": "Laser Printer",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following output devices is commonly used to generate soft copy output?",
+            "options": [
+                "Monitor",
+                "Printer",
+                "Plotter",
+                "Speakers"
+            ],
+            "answer": "Monitor",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which statement is NOT correct about Plotter?",
+            "options": [
+                "Used to generate large drawings and architectural blueprints",
+                "Uses laser technology",
+                "Faster and quieter than impact printers",
+                "Used to display information from the computer"
+            ],
+            "answer": "Uses laser technology",
+            "difficulty": "hard",
+            "type": "examiner trap"
+        }
+    ]
+}

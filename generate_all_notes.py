@@ -6,7 +6,7 @@ from services.notes_fromchrome import (
 )
 
 with open(
-    "vectordb/chunks.pkl",
+    "vectordb/02_Discrete_Structures_and_Optimization/chunks.pkl",
     "rb"
 ) as f:
     chunks = pickle.load(f)
@@ -35,7 +35,7 @@ for chunk in chunks:
     })
 
 with open(
-    "Fundamentals_of_Computers.json",
+    "summarization/02_Discrete_Structures_and_Optimization.json",
     "w",
     encoding="utf-8"
 ) as f:

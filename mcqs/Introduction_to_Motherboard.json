@@ -1,0 +1,150 @@
+{
+    "topic": "Introduction to Motherboard",
+    "total_questions": 12,
+    "mcqs": [
+        {
+            "question": "Which of the following is NOT a function of the motherboard?",
+            "options": [
+                "Connects all hardware components of a computer.",
+                "Provides communication between CPU, memory, storage, and peripheral devices.",
+                "Controls the weather of the computer.",
+                "Distributes power to various components."
+            ],
+            "answer": "Controls the weather of the computer.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of expansion slot?",
+            "options": [
+                "CPU Socket",
+                "Memory Slot",
+                "Chipset",
+                "PCIe Slot"
+            ],
+            "answer": "PCIe Slot",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary function of the BIOS/UEFI chip?",
+            "options": [
+                "To connect all hardware components of a computer.",
+                "To provide communication between CPU, memory, storage, and peripheral devices.",
+                "To initialize hardware components when the computer starts and load the operating system.",
+                "To distribute power to various components."
+            ],
+            "answer": "To initialize hardware components when the computer starts and load the operating system.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of storage connector?",
+            "options": [
+                "SATA Port",
+                "M.2 Slot",
+                "Power Connector",
+                "USB Port"
+            ],
+            "answer": "USB Port",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the purpose of the power connector on the motherboard?",
+            "options": [
+                "To connect all hardware components of a computer.",
+                "To provide communication between CPU, memory, storage, and peripheral devices.",
+                "To supply electrical power from the Power Supply Unit (PSU) to the motherboard.",
+                "To distribute power to various components."
+            ],
+            "answer": "To supply electrical power from the Power Supply Unit (PSU) to the motherboard.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of input/output port?",
+            "options": [
+                "CPU Socket",
+                "Memory Slot",
+                "Chipset",
+                "HDMI Port"
+            ],
+            "answer": "HDMI Port",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary advantage of the motherboard?",
+            "options": [
+                "It enables communication between all computer components.",
+                "It supports hardware upgrades and expansion.",
+                "It provides centralized control of hardware devices.",
+                "It ensures efficient data transfer within the system."
+            ],
+            "answer": "It enables communication between all computer components.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of expansion card?",
+            "options": [
+                "Graphics Card",
+                "Sound Card",
+                "Network Card",
+                "CPU"
+            ],
+            "answer": "CPU",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the function of the chipset on the motherboard?",
+            "options": [
+                "To connect all hardware components of a computer.",
+                "To provide communication between CPU, memory, storage, and peripheral devices.",
+                "To manage communication between the processor, memory, storage devices, and other peripherals.",
+                "To distribute power to various components."
+            ],
+            "answer": "To manage communication between the processor, memory, storage devices, and other peripherals.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a type of memory slot?",
+            "options": [
+                "CPU Socket",
+                "Expansion Slot",
+                "Chipset",
+                "RAM Slot"
+            ],
+            "answer": "RAM Slot",
+            "difficulty": "medium",
+            "type": "classification"
+        },
+        {
+            "question": "What is the primary benefit of the motherboard's centralized control?",
+            "options": [
+                "It enables communication between all computer components.",
+                "It supports hardware upgrades and expansion.",
+                "It provides efficient data transfer within the system.",
+                "It ensures reliable operation of the computer."
+            ],
+            "answer": "It provides efficient data transfer within the system.",
+            "difficulty": "easy",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is NOT a type of storage device?",
+            "options": [
+                "HDD",
+                "SSD",
+                "RAM",
+                "CPU"
+            ],
+            "answer": "CPU",
+            "difficulty": "medium",
+            "type": "classification"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "topic": "Evolution of Computers",
+    "total_questions": 10,
+    "mcqs": [
+        {
+            "question": "Which of the following is a characteristic of the first generation of computers?",
+            "options": [
+                "Used vacuum tubes",
+                "Used transistors",
+                "Used integrated circuits",
+                "Used microprocessors"
+            ],
+            "answer": "Used vacuum tubes",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is NOT a correct statement about the second generation of computers?",
+            "options": [
+                "Used transistors",
+                "Were smaller and faster than first generation computers",
+                "Were more expensive than first generation computers",
+                "Were less reliable than first generation computers"
+            ],
+            "answer": "Were less reliable than first generation computers",
+            "difficulty": "medium",
+            "type": "elimination"
+        },
+        {
+            "question": "Which of the following is a characteristic of the third generation of computers?",
+            "options": [
+                "Used integrated circuits",
+                "Used microprocessors",
+                "Were smaller and faster than second generation computers",
+                "Were more expensive than second generation computers"
+            ],
+            "answer": "Used integrated circuits",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is a correct statement about the fourth generation of computers?",
+            "options": [
+                "Used microprocessors",
+                "Were smaller and faster than third generation computers",
+                "Were more expensive than third generation computers",
+                "Were less reliable than third generation computers"
+            ],
+            "answer": "Used microprocessors",
+            "difficulty": "medium",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of the fifth generation of computers?",
+            "options": [
+                "Used artificial intelligence",
+                "Were smaller and faster than fourth generation computers",
+                "Were more expensive than fourth generation computers",
+                "Were less reliable than fourth generation computers"
+            ],
+            "answer": "Used artificial intelligence",
+            "difficulty": "hard",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is NOT a correct statement about the evolution of computers?",
+            "options": [
+                "First generation computers used vacuum tubes",
+                "Second generation computers used transistors",
+                "Third generation computers used integrated circuits",
+                "Fourth generation computers used microprocessors"
+            ],
+            "answer": "Fourth generation computers used microprocessors",
+            "difficulty": "medium",
+            "type": "elimination"
+        },
+        {
+            "question": "Which of the following is a correct statement about the advantages of the fifth generation of computers?",
+            "options": [
+                "They are smaller and faster than previous generations",
+                "They are more expensive than previous generations",
+                "They are less reliable than previous generations",
+                "They use artificial intelligence"
+            ],
+            "answer": "They use artificial intelligence",
+            "difficulty": "hard",
+            "type": "conceptual"
+        },
+        {
+            "question": "Which of the following is a characteristic of the evolution of computers?",
+            "options": [
+                "They have become smaller and faster over time",
+                "They have become more expensive over time",
+                "They have become less reliable over time",
+                "They have used different technologies over time"
+            ],
+            "answer": "They have used different technologies over time",
+            "difficulty": "easy",
+            "type": "classification"
+        },
+        {
+            "question": "Which of the following is NOT a correct statement about the impact of the evolution of computers?",
+            "options": [
+                "They have improved productivity",
+                "They have increased efficiency",
+                "They have reduced costs",
+                "They have decreased accuracy"
+            ],
+            "answer": "They have decreased accuracy",
+            "difficulty": "medium",
+            "type": "elimination"
+        },
+        {
+            "question": "Which of the following is a correct statement about the future of computer evolution?",
+            "options": [
+                "They will become smaller and faster",
+                "They will become more expensive",
+                "They will become less reliable",
+                "They will use artificial intelligence"
+            ],
+            "answer": "They will use artificial intelligence",
+            "difficulty": "hard",
+            "type": "conceptual"
+        }
+    ]
+}
