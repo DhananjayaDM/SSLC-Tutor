@@ -3,7 +3,7 @@ import re
 def chunk_markdown(content):
 
     sections = re.split(
-        r"^##\s+",
+        r"^###\s+",
         content,
         flags=re.MULTILINE
     )
