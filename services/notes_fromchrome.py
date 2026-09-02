@@ -1,4 +1,5 @@
 import os
+import time
 
 from dotenv import load_dotenv
 from groq import Groq
@@ -113,14 +114,18 @@ OUTPUT FORMAT
 Return ONLY the notes.
 """
 
-    try:
+    max_retries = 2
 
-        response = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
-            messages=[
-                {
-                    "role": "system",
-                    "content": """
+    for attempt in range(max_retries):
+
+        try:
+
+            response = client.chat.completions.create(
+                model="openai/gpt-oss-120b",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": """
 You are an expert Competitive Exam Revision
 Notes Generator.
 
@@ -132,29 +137,41 @@ Your responsibility is to:
 - Never introduce new syllabus content.
 - Never hallucinate.
 - Never expand the scope of the topic.
-                    """
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            temperature=0,
-            max_completion_tokens=1200
-        )
+                        """
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                temperature=0,
+                max_completion_tokens=1200
+            )
 
-        return (
-            response
-            .choices[0]
-            .message
-            .content
-            .strip()
-        )
+            return (
+                response
+                .choices[0]
+                .message
+                .content
+                .strip()
+            )
 
-    except Exception as e:
+        except Exception as e:
 
-        print(
-            f"Error generating points: {e}"
-        )
+            if "429" in str(e) and attempt < max_retries - 1:
 
-        return ""
+                print(
+                    "Rate limit hit (429). "
+                    "Waiting 30 seconds and retrying..."
+                )
+
+                time.sleep(30)
+                continue
+
+            print(
+                f"Error generating points: {e}"
+            )
+
+            return ""
+
+    return ""
