@@ -247,9 +247,7 @@ def process_question(question: str):
     #
     # 2. QUERY EXPANSION
     #
-    query = expand_query(
-        question
-    )
+    query = expand_query(question)
 
     #
     # 3. RETRIEVE DOCUMENTS
@@ -259,50 +257,40 @@ def process_question(question: str):
         k=10
     )
 
-    if not docs:
-        return {
-            "source": "none",
-            "answer":
-            "Information not found in the provided notes."
-        }
+    notes_found = False
+    best_doc = {}
+
+    if docs:
+
+        best_doc = docs[0]
+
+        notes_found = (
+            best_doc.get(
+                "distance",
+                999
+            ) <= 1.5
+        )
 
     #
-    # 4. BEST DOCUMENT
-    #
-    best_doc = docs[0]
-
-    #
-    # 5. DISTANCE CHECK
-    #
-    if best_doc.get(
-        "distance",
-        999
-    ) > 1.5:
-
-        return {
-            "source": "none",
-            "answer":
-            "Information not found in the provided notes."
-        }
-
-    #
-    # 6. BUILD CONTEXT
+    # 4. BUILD CONTEXT
     #
     context_parts = []
 
-    for doc in docs[:5]:
+    if notes_found:
 
-        topic = get_title(doc)
+        for doc in docs[:5]:
 
-        notes = get_text(doc)
+            topic = get_title(doc)
 
-        chapter = doc.get(
-            "chapter",
-            "Unknown"
-        )
+            notes = get_text(doc)
 
-        context_parts.append(
-            f"""
+            chapter = doc.get(
+                "chapter",
+                "Unknown"
+            )
+
+            context_parts.append(
+                f"""
 CHAPTER:
 {chapter}
 
@@ -312,70 +300,58 @@ TOPIC:
 NOTES:
 {notes}
 """
-        )
+            )
 
     context = "\n\n".join(
         context_parts
     )[:5000]
 
     #
-    # 7. PROMPT
+    # 5. PROMPT
     #
     prompt = f"""
-You are an exam preparation assistant.
-
-STUDY NOTES:
-
-{context}
+You are a Computer Science Exam Preparation Assistant.
 
 QUESTION:
 
 {question}
 
+AVAILABLE NOTES:
+
+{context}
+
 RULES:
 
-1. Use the notes as the PRIMARY source.
+1. Use notes as the primary source whenever relevant.
 
-2. Answer primarily from the notes.
+2. If the answer exists in the notes:
+   - Answer mainly from the notes.
+   - Include important exam points.
 
-3. If multiple notes discuss the same topic,
-   combine their information.
+3. If the answer is NOT present in the notes:
+   - Start the answer with:
 
-4. Prefer detailed explanations over brief mentions.
+     This topic is not present in the provided notes.
 
-5. You may:
-   - simplify explanations
-   - provide examples
-   - provide worked examples
-   - provide truth tables
-   - provide exam tips
+   - Then answer using standard academic computer science knowledge.
 
-6. Do not contradict the notes.
+4. If the notes partially contain the answer:
+   - Use notes first.
+   - Then enrich the answer with academic knowledge.
 
-7. If information is partially available,
-   complete it using standard academic
-   computer science knowledge.
+5. Use bullet points where appropriate.
 
-8. If information is completely absent,
-   say exactly:
+6. For algorithms:
+   - Mention strategy.
+   - Mention complexity.
+   - Mention applications.
 
-   Information not found in the provided notes.
+7. Keep answers exam-oriented.
 
-9. Use bullet points whenever useful.
-
-10. Keep answers concise and useful for exams.
-
-11. For binary arithmetic,
-    show the complete calculation.
-
-12. For truth tables,
-    generate the complete truth table.
-
-13. Maximum 150 words.
+NOTES_FOUND = {"YES" if notes_found else "NO"}
 """
-
     #
-    # 8. GROQ CALL
+    # 6. GROQ CALL
     #
     try:
 
@@ -383,7 +359,7 @@ RULES:
             client.chat.completions.create(
                 model="openai/gpt-oss-120b",
                 temperature=0,
-                max_tokens=300,
+                max_tokens=800,
                 messages=[
                     {
                         "role": "user",
@@ -402,21 +378,30 @@ RULES:
         )
 
         return {
-            "source": "groq",
+            "source":
+                "notes"
+                if notes_found
+                else "general",
+
             "answer": answer,
-            "topic": get_title(
-                best_doc
-            ),
-            "chapter": best_doc.get(
-                "chapter",
-                ""
-            )
+
+            "topic":
+                get_title(best_doc)
+                if notes_found
+                else "General Knowledge",
+
+            "chapter":
+                best_doc.get(
+                    "chapter",
+                    ""
+                )
+                if notes_found
+                else ""
         }
 
     except APIStatusError as e:
 
         if e.status_code == 429:
-
             return {
                 "source": "error",
                 "answer":
@@ -424,7 +409,6 @@ RULES:
             }
 
         elif e.status_code == 413:
-
             return {
                 "source": "error",
                 "answer":
@@ -432,7 +416,6 @@ RULES:
             }
 
         else:
-
             return {
                 "source": "error",
                 "answer": f"API Error: {e}"

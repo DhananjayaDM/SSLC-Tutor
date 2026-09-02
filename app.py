@@ -3,12 +3,21 @@ from pydantic import BaseModel
 import os
 import json
 from fastapi import HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
-from services.chat_service import process_question, save_memory
+from services.chat_service import process_question, save_memory, load_memory
 
 app = FastAPI(
     title="Computer Science Exam Assistant"
 )
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 
 class AskRequest(BaseModel):
@@ -66,7 +75,7 @@ def get_chapter(req: ChapterRequest):
         data = json.load(f)
 
     return data
-    
+
 @app.get("/chapters")
 def get_chapters():
 
@@ -79,3 +88,10 @@ def get_chapters():
     return {
         "chapters": sorted(files)
     }    
+
+@app.get("/saved")
+def get_saved():
+
+    data = load_memory()
+
+    return data   
