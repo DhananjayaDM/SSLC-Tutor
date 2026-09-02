@@ -1,12 +1,19 @@
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer(
-    "BAAI/bge-small-en-v1.5"
-)
+model = None
+
+def get_model():
+    global model
+
+    if model is None:
+        model = SentenceTransformer(
+            "all-MiniLM-L6-v2"
+        )
+
+    return model
 
 def embed_texts(texts):
-
-    return model.encode(
+    return get_model().encode(
         texts,
         convert_to_numpy=True
     )
