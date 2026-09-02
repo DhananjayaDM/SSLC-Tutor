@@ -9,7 +9,7 @@ from services.vectordb import (
 )
 
 text = Path(
-    "knowledge_base/05_SQL.md"
+    "knowledge_base/10_Artificial_Neural_Networks.md"
 ).read_text(
     encoding="utf-8"
 )

@@ -58,5 +58,11 @@
         "answer": "**Symbol Table – What it Is and How It Works**\n\n- **Definition** – A data structure built by the assembler (or compiler) that records every **symbol** (labels, variables, constants) together with its **actual memory address** (or location counter value).  \n- **When it is created** –  \n  - *Pass‑1* of a two‑pass assembler: as the source is scanned, each label/variable is entered with a provisional address.  \n  - The table is finalized before *Pass‑2* generates the object code.  \n- **Contents (example)**  \n\n| Symbol | Address |\n|--------|---------|\n| NUM1   | 100     |\n| NUM2   | 101     |\n| RESULT | 102     |\n\n- **How the assembler uses it**  \n  1. When it encounters a mnemonic that refers to a symbol (e.g., `LDA NUM1`), it looks up **NUM1** in the table to obtain **100**.  \n  2. The address is inserted into the machine‑code instruction (e.g., opcode 0010 + address",
         "topic": "Assembler",
         "chapter": "03_Programming_the_Basic_Computer"
+    },
+    {
+        "question": "what is linked list",
+        "answer": "**Linked List – concise exam definition**\n\n- A **dynamic linear data structure** made up of **nodes**.  \n- Each node contains two fields:  \n  1. **data** – the value stored.  \n  2. **link (pointer)** – address of the next node (or previous node in doubly‑linked lists).  \n- Nodes are **not stored in contiguous memory**; they are linked together via pointers, so the list can grow or shrink at run‑time.  \n- **Common variants** – singly linked, doubly linked, circular linked.  \n- **Why use it?**  \n  - Insertion and deletion are **O(1)** when the target node is known (no shifting of elements).  \n  - Provides **dynamic memory allocation**; no need to pre‑declare size.  \n- **Limitation:** No direct indexing; accessing an element requires sequential traversal (**O(n)**).  \n\n**Exam tip:** Remember the four key points – dynamic, uses pointers, non‑contiguous, efficient insert/delete.",
+        "topic": "Linked Lists",
+        "chapter": "08_Data_Structures_and_Algorithms"
     }
 ]

@@ -29,11 +29,11 @@ def create_db(chunks):
 
     faiss.write_index(
         index,
-        "vectordb/05_SQL/index.faiss"
+        "vectordb/10_Artificial_Neural_Networks/index.faiss"
     )
 
     with open(
-        "vectordb/05_SQL/chunks.pkl",
+        "vectordb/10_Artificial_Neural_Networks/chunks.pkl",
         "wb"
     ) as f:
         pickle.dump(

@@ -6,7 +6,7 @@ from services.notes_fromchrome import (
 )
 
 with open(
-    "vectordb/05_SQL/chunks.pkl",
+    "vectordb/10_Artificial_Neural_Networks/chunks.pkl",
     "rb"
 ) as f:
     chunks = pickle.load(f)
@@ -35,7 +35,7 @@ for chunk in chunks:
     })
 
 with open(
-    "summarization/05_SQL.json",
+    "summarization/10_Artificial_Neural_Networks.json",
     "w",
     encoding="utf-8"
 ) as f:
